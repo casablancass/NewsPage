@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FEFDF9;
+    min-height: 100vh;
+    font-family: 'Inter',sans-serif;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 85px;
+    padding-bottom: 125px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+nav a {
+    color: #807E89;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #F15D51;
+}
+
+
+main {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px
+}
+
+.dark-blue-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #00001A;
+    width: 350px;
+    height: 510px;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-bottom: 40px;
+    padding-right: 25px;
+}
+
+.dark-blue-card h2 {
+    color: #E9B057;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.news-card {
+    color: #F6F6F8;
+}
+
+.news-card h3 {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.news-card p {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.line {
+    background-color: #5F5F79;
+    border: 1px solid;
+    width: 100%;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    font-size: 1px;
+}
+
+main .up-side {
+    display: flex;
+    gap: 30px;
+}
+
+.left-side img {
+    width: 730px;
+    height: 300px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.bottom-shape-img {
+    display: flex;
+    gap: 90px;
+
+}
+
+.title h1 {
+    color: #00001B;
+    font-weight: 800;
+    font-size: 40px;
+    width: 290px;
+}
+
+.text-button {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.text-button button{
+    width: 185px;
+    height: 50px;
+    border: none;
+    background-color: #F15D51;
+    color: white;
+
+}
+
+.text-button p {
+    color: #615E69;
+    font-weight: 400;
+    width: 340px;
+}
+
+.bottom-side {
+    display: flex;
+    gap: 55px;
+    align-items: center;
+}
+
+.retro-pc {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.news-pc{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.laptops {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.news-laptops {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.gaming {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.news-gaming {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+ .bottom-side img {
+    width: 100px;
+    height: 125px;
+ }
+
+ .news-pc h2 {
+    font-size: 23px;
+    color: #CCC9D4;
+
+ }
+
+ .news-pc h3 {
+    font-size: 13px;
+    color: #000015;
+ }
+
+ .news-pc p {
+    color: #7A7981;
+
+ }
+
+ .news-laptops h2 {
+    font-size: 23px;
+    color: #CCC9D4;
+
+ }
+
+ .news-laptops h3 {
+    font-size: 13px;
+    color: #000015;
+ }
+
+ .news-laptops p {
+    color: #7A7981;
+
+ }
+
+ .news-gaming h2 {
+    font-size: 23px;
+    color: #CCC9D4;
+
+ }
+
+ .news-gaming h3 {
+    font-size: 13px;
+    color: #000015;
+ }
+
+ .news-gaming p {
+    color: #7A7981;
+
+ }
